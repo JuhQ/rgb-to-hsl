@@ -30,7 +30,7 @@ module.exports = (r, g, b) ->
         h = (r - g) / d + 4
     h /= 6
 
-  h = Math.ceil(h * 360)
+  h = h * 360
   s = "#{s * 100}%"
   l = "#{l * 100}%"
 
